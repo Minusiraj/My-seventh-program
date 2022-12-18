@@ -1,0 +1,19 @@
+# My-seventh-program
+
+Write a C program to get a float value from the user and display it in the below-mentioned format.
+
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float f,d,e;
+    cin >> f;
+    d=ceil(f);
+    e=floor(f);
+    int  a =int (f);
+    printf ("%d",a);
+    printf ("\n%.1f",d);
+    printf ("\n%.1f",e);
+    return 0;
+}
